@@ -1,5 +1,137 @@
 [[redirects]]
+from = "/"
+to = "https://getpause.com/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features"
+to = "https://getpause.com/features"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features#slack"
+to = "https://getpause.com/features#slack"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features#apply"
+to = "https://getpause.com/features#apply"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features#approve"
+to = "https://getpause.com/features#approve"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features#teams"
+to = "https://getpause.com/features#teams"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features#custom"
+to = "https://getpause.com/features#custom"
+status = 301
+force = false
+
+[[redirects]]
+from = "/features#organ"
+to = "https://getpause.com/features#organ"
+status = 301
+force = false
+
+[[redirects]]
+from = "/pricing"
+to = "https://getpause.com/pricing"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog"
+to = "https://getpause.com/blog"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/how-to-handle-leave-conflicts"
+to = "https://getpause.com/blog/how-to-handle-leave-conflicts"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/leave-management-trends"
+to = "https://getpause.com/blog/leave-management-trends"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/supporting-employee-work-life-balance-through-leave-policies"
+to = "https://getpause.com/blog/supporting-employee-work-life-balance-through-leave-policies"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/thousandzero-case-study-pause"
+to = "https://getpause.com/blog/thousandzero-case-study-pause"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/quizizz-case-study-pause"
+to = "https://getpause.com/blog/quizizz-case-study-pause"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/donatix-case-study-pause"
+to = "https://getpause.com/blog/donatix-case-study-pause"
+status = 301
+force = false
+
+[[redirects]]
+from = "/about"
+to = "https://getpause.com/about"
+status = 301
+force = false
+
+[[redirects]]
+from = "/privacy-policy"
+to = "https://getpause.com/privacy-policy"
+status = 301
+force = false
+
+[[redirects]]
 from = "/terms-and-conditions"
 to = "https://getpause.com/terms-and-conditions"
+status = 301
+force = false
+
+[[redirects]]
+from = "/timetastic-alternative-pause"
+to = "https://getpause.com/timetastic-alternative-pause"
+status = 301
+force = false
+
+[[redirects]]
+from = "/vacation-Tracker-alternative-pause"
+to = "https://getpause.com/vacation-Tracker-alternative-pause"
+status = 301
+force = false
+
+[[redirects]]
+from = "/zoho-people-alternative-pause"
+to = "https://getpause.com/zoho-people-alternative-pause"
+status = 301
+force = false
+
+[[redirects]]
+from = "/greytHR-alternative-pause"
+to = "https://getpause.com/greytHR-alternative-pause"
 status = 301
 force = false

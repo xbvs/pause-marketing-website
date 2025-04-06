@@ -1,0 +1,23 @@
+{
+  "name": "pause-marketing-website",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbvs/pause-marketing-website.git"
+  },
+  "author": "Varun Barad <varun@obvious.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xbvs/pause-marketing-website/issues"
+  },
+  "homepage": "https://github.com/xbvs/pause-marketing-website#readme",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

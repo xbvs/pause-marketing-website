@@ -8,47 +8,7 @@
   <link rel="stylesheet" href="assets/css/main.out.css" />
 </head>
 <body>
-  <header class="bg-white py-4 px-6 flex items-center justify-between shadow-sm fixed w-full top-0 z-50">
-    <!-- Logo on extreme left -->
-    <div class="flex items-center">
-      <a href="/" class="flex items-center">
-        <img src="assets/images/pause-logo.svg" alt="Pause Logo" class="h-8" />
-        <span class="ml-2 text-indigo-600 font-bold text-xl">pause</span>
-      </a>
-    </div>
-    
-    <!-- Navigation and CTA grouped together on extreme right -->
-    <div class="flex items-center space-x-8">
-      <nav class="hidden md:flex space-x-8">
-        <a href="#features" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">FEATURES</a>
-        <a href="#pricing" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">PRICING</a>
-        <a href="#blog" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">BLOG</a>
-        <a href="#login" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">LOGIN</a>
-      </nav>
-      
-      <div class="hidden md:block">
-        <a href="#trial" class="bg-indigo-600 text-white font-sans font-medium px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors">30 DAY FREE TRIAL</a>
-      </div>
-      
-      <!-- Mobile menu button moved inside the right-side group -->
-      <button class="md:hidden focus:outline-none" id="mobile-menu-button">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-    </div>
-  </header>
-  
-  <!-- Mobile menu, hidden by default -->
-  <div class="md:hidden hidden bg-white fixed w-full top-16 left-0 z-40 shadow-md" id="mobile-menu">
-    <div class="flex flex-col space-y-4 px-6 py-4">
-      <a href="#features" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">FEATURES</a>
-      <a href="#pricing" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">PRICING</a>
-      <a href="#blog" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">BLOG</a>
-      <a href="#login" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">LOGIN</a>
-      <a href="#trial" class="bg-indigo-600 text-white font-sans font-medium px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors text-center">30 DAY FREE TRIAL</a>
-    </div>
-  </div>
+  {% include 'header.liquid' %}
   
   <!-- Main content padding to account for fixed header -->
   <div class="pt-20">
@@ -111,28 +71,6 @@
       </div>
     </div>
   </footer>
-  
-  <script>
-    // Mobile menu toggle functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      const mobileMenuButton = document.getElementById('mobile-menu-button');
-      const mobileMenu = document.getElementById('mobile-menu');
-      
-      if (mobileMenuButton && mobileMenu) {
-        mobileMenuButton.addEventListener('click', function() {
-          mobileMenu.classList.toggle('hidden');
-        });
-        
-        // Close menu when clicking on a link
-        const mobileLinks = mobileMenu.querySelectorAll('a');
-        mobileLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            mobileMenu.classList.add('hidden');
-          });
-        });
-      }
-    });
-  </script>
 </body>
 
 </html>

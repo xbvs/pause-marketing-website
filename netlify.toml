@@ -107,12 +107,6 @@ status = 301
 force = false
 
 [[redirects]]
-from = "/terms-and-conditions"
-to = "https://getpause.com/terms-and-conditions"
-status = 301
-force = false
-
-[[redirects]]
 from = "/timetastic-alternative-pause"
 to = "https://getpause.com/timetastic-alternative-pause"
 status = 301

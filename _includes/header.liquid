@@ -1,28 +1,25 @@
-<header class="bg-white py-8 px-6 flex items-center justify-between shadow-sm fixed w-full top-0 z-50">
+<header class="bg-white py-8 px-12 flex items-center justify-between shadow-sm fixed w-full top-0 z-50 font-concourse-c6">
     <!-- Logo on extreme left -->
-    <div class="flex items-center">
-        <a href="/" class="flex items-center">
-            <img src="assets/images/pause-logo.svg" alt="Pause Logo" class="h-8" />
-            <span class="ml-2 text-indigo-600 font-bold text-xl">pause</span>
-        </a>
-    </div>
+    <a href="/" class="flex items-center">
+        <img src="assets/images/pause-logo-with-text.png" alt="Pause Logo" class="h-10" />
+    </a>
 
     <!-- Navigation and CTA grouped together on extreme right -->
-    <div class="flex items-center space-x-8">
+    <div class="flex items-center gap-x-8">
         <nav class="hidden md:flex space-x-8">
-            <a href="#features" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">FEATURES</a>
-            <a href="#pricing" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">PRICING</a>
-            <a href="#blog" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">BLOG</a>
-            <a href="#login" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">LOGIN</a>
+            <a href="/features" class="text-xl text-primary-dark hover:text-primary transition-colors">features</a>
+            <a href="/pricing" class="text-xl text-primary-dark hover:text-primary transition-colors">pricing</a>
+            <a href="/blog" class="text-xl text-primary-dark hover:text-primary transition-colors">blog</a>
+            <a href="https://app.getpause.com" class="text-xl text-primary-dark hover:text-primary transition-colors">login</a>
         </nav>
 
         <div class="hidden md:block">
-            <a href="#trial" class="bg-primary text-white font-sans font-medium px-6 py-2 rounded-md hover:bg-primary-dark transition-colors">30 DAY FREE TRIAL</a>
+            <a href="https://app.getpause.com" class="text-white bg-primary hover:bg-primary-dark rounded-lg text-lg px-4 py-3 transition-colors uppercase">30 day free trial</a>
         </div>
 
         <!-- Mobile menu button moved inside the right-side group -->
         <button class="md:hidden focus:outline-none cursor-pointer" id="mobile-menu-button">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
         </button>
@@ -30,13 +27,13 @@
 </header>
 
 <!-- Mobile menu, hidden by default -->
-<div class="md:hidden hidden bg-white fixed w-full top-24 left-0 z-40 shadow-md" id="mobile-menu">
+<div class="md:hidden hidden bg-white fixed w-full top-24 left-0 z-40 shadow-md font-concourse-c6" id="mobile-menu">
     <div class="flex flex-col space-y-4 px-6 py-4">
-        <a href="#features" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">FEATURES</a>
-        <a href="#pricing" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">PRICING</a>
-        <a href="#blog" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">BLOG</a>
-        <a href="#login" class="font-sans text-gray-600 hover:text-indigo-600 transition-colors">LOGIN</a>
-        <a href="#trial" class="bg-indigo-600 text-white font-sans font-medium px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors text-center">30 DAY FREE TRIAL</a>
+        <a href="/features" class="text-primary-dark hover:text-primary transition-colors">features</a>
+        <a href="/pricing" class="text-primary-dark hover:text-primary transition-colors">pricing</a>
+        <a href="/blog" class="text-primary-dark hover:text-primary transition-colors">blog</a>
+        <a href="https://app.getpause.com" class="text-primary-dark hover:text-primary transition-colors">login</a>
+        <a href="https://app.getpause.com" class="text-white bg-primary hover:bg-primary-dark rounded-lg text-lg px-4 py-3 transition-colors text-center uppercase">30 day free trial</a>
     </div>
 </div>
 

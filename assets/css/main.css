@@ -1,6 +1,644 @@
 @import "tailwindcss";
 
+/* Concourse C (Cap) Font Family */
+/* Concourse C2 */
+@font-face {
+  font-family: 'Concourse C2';
+  src: url('/assets/fonts/concourse/ConcourseC2.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC2.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC2.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC2.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse C2';
+  src: url('/assets/fonts/concourse/ConcourseC2-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC2-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC2-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC2-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C2 Tab */
+@font-face {
+  font-family: 'Concourse C2 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC2Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC2Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC2Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC2Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse C2 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC2Tab-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC2Tab-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC2Tab-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC2Tab-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C3 */
+@font-face {
+  font-family: 'Concourse C3';
+  src: url('/assets/fonts/concourse/ConcourseC3.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC3.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC3.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC3.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse C3';
+  src: url('/assets/fonts/concourse/ConcourseC3-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC3-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC3-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC3-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C3 Tab */
+@font-face {
+  font-family: 'Concourse C3 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC3Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC3Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC3Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC3Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse C3 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC3Tab-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC3Tab-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC3Tab-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC3Tab-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C4 */
+@font-face {
+  font-family: 'Concourse C4';
+  src: url('/assets/fonts/concourse/ConcourseC4.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC4.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC4.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC4.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse C4';
+  src: url('/assets/fonts/concourse/ConcourseC4-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC4-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC4-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC4-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C4 Tab */
+@font-face {
+  font-family: 'Concourse C4 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC4Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC4Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC4Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC4Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse C4 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC4Tab-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC4Tab-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC4Tab-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC4Tab-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C6 */
+@font-face {
+  font-family: 'Concourse C6';
+  src: url('/assets/fonts/concourse/ConcourseC6.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC6.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC6.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC6.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C6 Tab */
+@font-face {
+  font-family: 'Concourse C6 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC6Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC6Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC6Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC6Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C7 */
+@font-face {
+  font-family: 'Concourse C7';
+  src: url('/assets/fonts/concourse/ConcourseC7.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC7.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC7.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC7.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C7 Tab */
+@font-face {
+  font-family: 'Concourse C7 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC7Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC7Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC7Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC7Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C8 */
+@font-face {
+  font-family: 'Concourse C8';
+  src: url('/assets/fonts/concourse/ConcourseC8.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC8.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC8.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC8.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse C8 Tab */
+@font-face {
+  font-family: 'Concourse C8 Tab';
+  src: url('/assets/fonts/concourse/ConcourseC8Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseC8Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseC8Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseC8Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Concourse T (Text) Font Family */
+/* Concourse T2 */
+@font-face {
+  font-family: 'Concourse T2';
+  src: url('/assets/fonts/concourse/ConcourseT2.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T2';
+  src: url('/assets/fonts/concourse/ConcourseT2-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T2';
+  src: url('/assets/fonts/concourse/ConcourseT2-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T2';
+  src: url('/assets/fonts/concourse/ConcourseT2-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2-BoldItalic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2-BoldItalic.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T2 Tab */
+@font-face {
+  font-family: 'Concourse T2 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT2Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T2 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT2Tab-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T2 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT2Tab-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T2 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT2Tab-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-BoldItalic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT2Tab-BoldItalic.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T3 */
+@font-face {
+  font-family: 'Concourse T3';
+  src: url('/assets/fonts/concourse/ConcourseT3.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T3';
+  src: url('/assets/fonts/concourse/ConcourseT3-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T3';
+  src: url('/assets/fonts/concourse/ConcourseT3-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T3';
+  src: url('/assets/fonts/concourse/ConcourseT3-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3-BoldItalic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3-BoldItalic.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T3 Tab */
+@font-face {
+  font-family: 'Concourse T3 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT3Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T3 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT3Tab-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T3 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT3Tab-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T3 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT3Tab-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-BoldItalic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT3Tab-BoldItalic.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T4 */
+@font-face {
+  font-family: 'Concourse T4';
+  src: url('/assets/fonts/concourse/ConcourseT4.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T4';
+  src: url('/assets/fonts/concourse/ConcourseT4-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T4';
+  src: url('/assets/fonts/concourse/ConcourseT4-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T4';
+  src: url('/assets/fonts/concourse/ConcourseT4-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4-BoldItalic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4-BoldItalic.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T4 Tab */
+@font-face {
+  font-family: 'Concourse T4 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT4Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T4 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT4Tab-Bold.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-Bold.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-Bold.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T4 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT4Tab-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T4 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT4Tab-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-BoldItalic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT4Tab-BoldItalic.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T6 */
+@font-face {
+  font-family: 'Concourse T6';
+  src: url('/assets/fonts/concourse/ConcourseT6.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT6.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT6.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT6.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T6';
+  src: url('/assets/fonts/concourse/ConcourseT6-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT6-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT6-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT6-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T6 Tab */
+@font-face {
+  font-family: 'Concourse T6 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT6Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT6Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT6Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT6Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T6 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT6Tab-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT6Tab-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT6Tab-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT6Tab-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T7 */
+@font-face {
+  font-family: 'Concourse T7';
+  src: url('/assets/fonts/concourse/ConcourseT7.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT7.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT7.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT7.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T7';
+  src: url('/assets/fonts/concourse/ConcourseT7-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT7-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT7-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT7-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T7 Tab */
+@font-face {
+  font-family: 'Concourse T7 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT7Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT7Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT7Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT7Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T7 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT7Tab-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT7Tab-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT7Tab-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT7Tab-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T8 */
+@font-face {
+  font-family: 'Concourse T8';
+  src: url('/assets/fonts/concourse/ConcourseT8.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT8.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT8.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT8.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T8';
+  src: url('/assets/fonts/concourse/ConcourseT8-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT8-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT8-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT8-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Concourse T8 Tab */
+@font-face {
+  font-family: 'Concourse T8 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT8Tab.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT8Tab.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT8Tab.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT8Tab.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Concourse T8 Tab';
+  src: url('/assets/fonts/concourse/ConcourseT8Tab-Italic.woff2') format('woff2'),
+  url('/assets/fonts/concourse/ConcourseT8Tab-Italic.woff') format('woff'),
+  url('/assets/fonts/concourse/ConcourseT8Tab-Italic.ttf') format('truetype'),
+  url('/assets/fonts/concourse/ConcourseT8Tab-Italic.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme {
   --color-primary: oklch(0.44 0.1872 283.05);
   --color-primary-dark: oklch(0.33 0.103 286.8);
+  
+  /* Define Concourse font families */
+  --font-concourse-c2: "Concourse C2";
+  --font-concourse-c3: "Concourse C3";
+  --font-concourse-c4: "Concourse C4";
+  --font-concourse-c6: "Concourse C6";
+  --font-concourse-c7: "Concourse C7";
+  --font-concourse-c8: "Concourse C8";
+  --font-concourse-t2: "Concourse T2";
+  --font-concourse-t3: "Concourse T3";
+  --font-concourse-t4: "Concourse T4";
+  --font-concourse-t6: "Concourse T6";
+  --font-concourse-t7: "Concourse T7";
+  --font-concourse-t8: "Concourse T8";
+  
+  /* Tab variants */
+  --font-concourse-c2-tab: "Concourse C2 Tab";
+  --font-concourse-t2-tab: "Concourse T2 Tab";
 }

@@ -642,4 +642,11 @@
   /* Tab variants */
   --font-concourse-c2-tab: "Concourse C2 Tab";
   --font-concourse-t2-tab: "Concourse T2 Tab";
+  
+  --animate-infinite-scroll: infinite-scroll 40s linear infinite;
+  
+  @keyframes infinite-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-50% - 20px)); }
+  }
 }

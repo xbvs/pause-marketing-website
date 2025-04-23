@@ -353,6 +353,91 @@ permalink: /index.html
             30 day free trial
         </a>
     </div>
+
+    <div class="w-full py-32">
+        <h2 class="text-primary-400 text-center text-4xl md:text-6xl font-concourse-t6">
+            Frequently asked questions
+        </h2>
+
+        <div class="accordion mt-16 w-full md:max-w-2xl mx-auto flex flex-col justify-start items-stretch">
+            <div class="item w-full group">
+                <div class="header px-6 py-4 flex justify-between items-center gap-x-8 cursor-pointer">
+                    <p class="text-3xl font-concourse-t6">What is Pause?</p>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-6 group-data-active:rotate-45 transition-transform text-primary-400"
+                        viewBox="0 0 448 512">
+                        <path
+                            fill="currentColor"
+                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/>
+                    </svg>
+                </div>
+                <div class="content px-6 group-data-active:pb-4 h-0 group-data-active:h-fit overflow-hidden transition-all ease-in-out font-concourse-t3 text-2xl">
+                    Pause is a leave management software for startups, remote teams and SMBs. It's simple, easy to use
+                    and affordable. Pause has a powerful Slack integration and also syncs with Google Calendar to create
+                    visibility across the team and make sure PTO days are recorded.
+                </div>
+            </div>
+
+            <hr class="bg-primary-200">
+
+            <div class="item w-full group">
+                <div class="header px-6 py-4 flex justify-between items-center gap-x-8 cursor-pointer">
+                    <p class="text-3xl font-concourse-t6">Who is Pause for?</p>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-6 group-data-active:rotate-45 transition-transform text-primary-400"
+                        viewBox="0 0 448 512">
+                        <path
+                            fill="currentColor"
+                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/>
+                    </svg>
+                </div>
+                <div class="content px-6 group-data-active:pb-4 h-0 group-data-active:h-fit overflow-hidden transition-all ease-in-out font-concourse-t3 text-2xl">
+                    Pause is for businesses of all sizes, whether you're a lean team, a medium-sized business, or a
+                    large organisation. Pause is a great leave management software for remote, hybrid and in-person
+                    work.
+                </div>
+            </div>
+
+            <hr class="bg-primary-200">
+
+            <div class="item w-full group">
+                <div class="header px-6 py-4 flex justify-between items-center gap-x-8 cursor-pointer">
+                    <p class="text-3xl font-concourse-t6">How long will it take to set up Pause?</p>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-6 group-data-active:rotate-45 transition-transform text-primary-400"
+                        viewBox="0 0 448 512">
+                        <path
+                            fill="currentColor"
+                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/>
+                    </svg>
+                </div>
+                <div class="content px-6 group-data-active:pb-4 h-0 group-data-active:h-fit overflow-hidden transition-all ease-in-out font-concourse-t3 text-2xl">
+                    From signing up and setting up your leave policies to inviting your first teammate, Pause takes just
+                    a few minutes to set up! From then on, you can enhance your setup at your own pace: connect Pause to
+                    Slack and Google Calendar, set up leave summary notifications, and lots more.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+          const accordionItems = document.querySelectorAll('.accordion .item');
+          accordionItems.forEach((accordionItem) => {
+            const header = accordionItem.querySelector('.header');
+            header.addEventListener('click', () => {
+              if (accordionItem.hasAttribute('data-active')) {
+                accordionItem.removeAttribute('data-active');
+              } else {
+                accordionItem.setAttribute('data-active', 'true');
+              }
+            });
+          });
+        });
+    </script>
 </div>
 
 {% include 'footer.liquid' %}

@@ -269,6 +269,98 @@ permalink: /index.html
         </div>
     </div>
 
+    <div class="mt-40 w-full px-8">
+        <h3 class="px-8 text-primary-400 text-center text-4xl md:text-6xl font-concourse-t6">
+            What our customers have said
+        </h3>
+        <div id="testimonials_container" data-index="0" class="mt-16 mx-auto w-full md:max-w-2xl bg-primary-200 rounded-lg px-4 md:px-16 py-4 md:py-8">
+            <p id="testimonials_body" class="text-center text-primary-700 text-2xl font-concourse-t6">
+                "Pause is ridiculously simple. It’s a no brainer — I instantly signed up, and it’s been great since then. I’ve never had to look back."
+            </p>
+            <p id="testimonials_author" class="mt-8 text-center text-primary-400 text-xl font-concourse-c6 lowercase">
+                Madhav Mimani
+            </p>
+            <p id="testimonials_position" class="text-center text-primary-400 text-base font-concourse-t4">
+                Co-founder, ThousandZero
+            </p>
+            <a
+                id="testimonials_link"
+                href="/blog/thousandzero-case-study-pause"
+                class="mt-8 block mx-auto w-fit border border-primary-500 rounded-lg px-4 py-1.5 text-primary-500 text-center text-2xl font-concourse-c6 lowercase hover:scale-105">
+                Read More
+            </a>
+        </div>
+        <div class="mt-16 mx-auto px-16 w-fit">
+            <button id="testimonials_previous" class="border-2 border-gray-500 p-2 rounded-l-4xl rounded-r-lg cursor-pointer hover:scale-105">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-gray-500" viewBox="0 0 320 512" fill="currentColor">
+                    <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                </svg>
+            </button>
+            <button id="testimonials_next" class="border-2 border-gray-500 p-2 rounded-l-lg rounded-r-4xl cursor-pointer hover:scale-105">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-gray-500" viewBox="0 0 320 512" fill="currentColor">
+                    <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script>
+      const testimonials = [
+        {
+          body: 'Pause is ridiculously simple. It’s a no brainer — I instantly signed up, and it’s been great since then. I’ve never had to look back.',
+          author: 'Madhav Mimani',
+          position: 'Co-founder, ThousandZero',
+          link: '/blog/thousandzero-case-study-pause',
+        },
+        {
+          body: 'Feedback is good, people are happy. Next year, we\'ll probably hit 300… But even then, I think this whole setup that we have with Pause will continue to work.',
+          author: 'Nishant Shankar',
+          position: 'HR, Quizizz',
+          link: '/blog/quizizz-case-study-pause',
+        },
+        {
+          body: 'What made us choose Pause is that it’s more intuitive and better to look at. It gives us a more powerful Slack integration, which fit perfectly.',
+          author: 'Venelin Petrov',
+          position: 'Co-founder, Donatix',
+          link: '/blog/donatix-case-study-pause',
+        },
+        {
+          body: 'We use the web UI for a couple of things but the Slack integration alone sells Pause for me — that was the biggest ask for us.',
+          author: 'Kiran Nambiar',
+          position: 'CTO, The TIFIN Group',
+          link: '/blog/thousandzero-case-study-pause',
+        },
+      ];
+
+      window.addEventListener('load', () => {
+        const testimonialsContainer = document.getElementById('testimonials_container');
+        const testimonialsBody = document.getElementById('testimonials_body');
+        const testimonialsAuthor = document.getElementById('testimonials_author');
+        const testimonialsPosition = document.getElementById('testimonials_position');
+        const testimonialsLink = document.getElementById('testimonials_link');
+
+        const setTestimonialData = (testimonialIndex) => {
+          testimonialsContainer.setAttribute('data-index', testimonialIndex.toString());
+          testimonialsBody.innerText = `"${testimonials[testimonialIndex].body}"`;
+          testimonialsAuthor.innerText = testimonials[testimonialIndex].author;
+          testimonialsPosition.innerText = testimonials[testimonialIndex].position;
+          testimonialsLink.setAttribute('href', testimonials[testimonialIndex].link);
+        };
+
+        document.getElementById('testimonials_previous').addEventListener('click', () => {
+          const currentIndex = parseInt(testimonialsContainer.getAttribute('data-index'), 10);
+          const newIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+          setTestimonialData(newIndex);
+        });
+
+        document.getElementById('testimonials_next').addEventListener('click', () => {
+          const currentIndex = parseInt(testimonialsContainer.getAttribute('data-index'), 10);
+          const newIndex = (currentIndex + 1) % testimonials.length;
+          setTestimonialData(newIndex);
+        });
+      });
+    </script>
+
     <div class="mt-40 w-full py-24 bg-primary-200">
         <h3 class="text-primary-400 text-center text-lg md:text-xl font-concourse-c6 uppercase">
             A highly-rated leave management software

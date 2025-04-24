@@ -621,9 +621,10 @@
 }
 
 @theme {
-  --color-primary: oklch(0.44 0.1872 283.05);
-  --color-primary-dark: oklch(0.33 0.103 286.8);
-  --color-primary-light: oklch(0.62 0.081 290.61);
+  --color-primary-200: oklch(0.99 0.0067 295.46);
+  --color-primary-400: oklch(0.62 0.081 290.61);
+  --color-primary-500: oklch(0.44 0.1872 283.05);
+  --color-primary-700: oklch(0.33 0.103 286.8);
   
   /* Define Concourse font families */
   --font-concourse-c2: "Concourse C2";
@@ -642,4 +643,11 @@
   /* Tab variants */
   --font-concourse-c2-tab: "Concourse C2 Tab";
   --font-concourse-t2-tab: "Concourse T2 Tab";
+  
+  --animate-infinite-scroll: infinite-scroll 40s linear infinite;
+  
+  @keyframes infinite-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-50% - 20px)); }
+  }
 }
